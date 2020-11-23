@@ -1,0 +1,54 @@
+:root {
+    --primary-text-color: #000000;
+    --title-text-color: #5c5c5c;
+    --accent-color: #2196F3;
+    --primary-background: #ffffff;
+}
+
+body {
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+}
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    
+}
+.navmenu a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+a:hover {
+    color: #3a8a30;
+}
+
+/* Section bg */
+
+
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
+
+background: #F5F4FA;
+
+/* top line bg */
+
+
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
