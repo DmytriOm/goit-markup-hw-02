@@ -5,45 +5,34 @@
     --primary-background: #ffffff;
     font-family: "Roboto"
 }
-
+a:-webkit-any-link {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 body {
-    position: relative;
-    width: 1600px;
-    height: 2349px;
     background-color: var(--primary-background);
     color: var(--title-text-color);
 }
-
-.logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    
-}
-
 .navmenu a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
 }
-
 .contacts a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     color: #757575;
 }
-
 a:hover {
     color: #2196F3;
 }
-
 .main-section {
     background: #2F303A;
 }
-
 .main-section p {
     
     font-style: normal;
@@ -96,18 +85,14 @@ a:hover {
     font-size: 16px;
     color:#212121
 }
-.footer { 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    background: #2F303A;
-}
+
 .footer-adress {
     color: var(--primary-background)
 }
 
-
+footer {
+    background: #2F303A;
+}
 .fb {
     font-family: "Roboto";
     font-style: normal;
@@ -116,7 +101,8 @@ a:hover {
     color:#212121;
     background: #F5F4FA;
 }
-.fb:hover {
+.fb:hover,
+.fb:focus {
     background: #2196F3;
 }
 .portfolio {
